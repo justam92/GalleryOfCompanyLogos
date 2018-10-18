@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/component.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/normalize.css">
+
+    <title> Galeria </title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/marketplaces.png">
+                </div>
+            </div>
+
+            <div id="paginationMarketplaces" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesMarketplaces" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-marketplaces -->
+
+            <div class="row" id="pageOfMarketplaces">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://district0x.io/" target="_blank">
+                        <img src="img/district0x-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://opensea.io/" target="_blank">
+                        <img src="img/opensea-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://enfavr.com/enfavr/" target="_blank">
+                        <img src="img/enfavr-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://canya.io/" target="_blank">
+                        <img src="img/canya-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.ebay.pl/" target="_blank">
+                        <img src="img/ebay-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.amazon.de/gp/switch-language/homepage.html/?tag=pldomain-21&ie=UTF8&language=pl_PL"
+                        target="_blank">
+                        <img src="img/amazon-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://openbazaar.org/" target="_blank">
+                        <img src="img/openbazaar-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.dentwireless.com/" target="_blank">
+                        <img src="img/dent-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.alibabagroup.com/" target="_blank">
+                        <img src="img/alibabaGroup-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://bitjob.io/" target="_blank">
+                        <img src="img/bitjobIO-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://warsaw.craigslist.pl/" target="_blank">
+                        <img src="img/craigslist-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://wax.io/" target="_blank">
+                        <img src="img/wax-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.yoox.com/pl/men" target="_blank">
+                        <img src="img/yoox-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://bitbay.net/pl" target="_blank">
+                        <img src="img/bitbay-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://pl.aliexpress.com/" target="_blank">
+                        <img src="img/aliexpress-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://swarm.city/" target="_blank">
+                        <img src="img/swarmCity-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.newegg.com/" target="_blank">
+                        <img src="img/newegg-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.bonanza.com/" target="_blank">
+                        <img src="img/bonanza-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://safex.io/" target="_blank">
+                        <img src="img/safex-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://digix.global/" target="_blank">
+                        <img src="img/digix-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://world.taobao.com/" target="_blank">
+                        <img src="img/taobao-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://www.medishares.org/" target="_blank">
+                        <img src="img/medishares-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.rubylane.com/" target="_blank">
+                        <img src="img/rubylane-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://jet.com/" target="_blank">
+                        <img src="img/jet-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.etsy.com/" target="_blank">
+                        <img src="img/etsy-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://datum.org/" target="_blank">
+                        <img src="img/datum-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.powerledger.io/" target="_blank">
+                        <img src="img/powerLedger-logo.png"> </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/ticketing.png">
+                </div>
+            </div>
+
+            <div id="paginationTicketing" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesTicketing" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-ticketing -->
+
+            <div class="row" id="pageOfTicketing">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.ticketsource.co.uk/" target="_blank">
+                        <img src="img/ticket-source-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.ticketmaster.pl/" target="_blank">
+                        <img src="img/ticketmaster-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.livenation.pl/" target="_blank">
+                        <img src="img/livenation-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.viagogo.pl/" target="_blank">
+                        <img src="img/viagogo-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.eventbrite.com/" target="_blank">
+                        <img src="img/eventbrite-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://blocktix.io/" target="_blank">
+                        <img src="img/blocktix-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://aventus.io/" target="_blank">
+                        <img src="img/aventus-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://crypto.tickets/forticketbuyers" target="_blank">
+                        <img src="img/cryptoTickets-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://guts.tickets/" target="_blank">
+                        <img src="img/guts-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.hellosugoi.com/" target="_blank">
+                        <img src="img/hellosugoi-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://eventchain.io/" target="_blank">
+                        <img src="img/eventChain-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/home_rental.png">
+                </div>
+            </div>
+
+            <div id="paginationHomeRental" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesHomeRental" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-homeRental -->
+
+            <div class="row" id="pageOfHomeRental">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.airbnb.pl/" target="_blank">
+                        <img src="img/airbnb-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.joinovernight.com/" target="_blank">
+                        <img src="img/overnight-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.vacasa.com/" target="_blank">
+                        <img src="img/vacasa-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://rentberry.com/" target="_blank">
+                        <img src="img/rentberry-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://cryptobnb.io/" target="_blank">
+                        <img src="img/cryptobnb-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.beetoken.com/" target="_blank">
+                        <img src="img/bee-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/micro_tasks.png">
+                </div>
+            </div>
+
+            <div id="paginationMicroTasks" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesMicroTasks" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-microTasks -->
+
+            <div class="row" id="pageOfMicroTasks">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.mturk.com/" target="_blank">
+                        <img src="img/amazonMechanicalTurk-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.stormx.io/" target="_blank">
+                        <img src="img/storm-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://gems.org/" target="_blank">
+                        <img src="img/gems-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/video_and_live_streaming.png">
+                </div>
+            </div>
+
+            <div id="paginationVideoAndLiveStreaming" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesVideoAndLiveStreaming" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-videoAndLiveStreaming -->
+
+            <div class="row" id="pageOfVideoAndLiveStreaming">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.netflix.com/pl/" target="_blank">
+                        <img src="img/netflix-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://www.ustream.tv/explore/all" target="_blank">
+                        <img src="img/ustream-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.youtube.com/" target="_blank">
+                        <img src="img/youtube-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.twitch.tv/" target="_blank">
+                        <img src="img/twitch-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://vimeo.com/" target="_blank">
+                        <img src="img/vimeo-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.pivotshare.com/" target="_blank">
+                        <img src="img/pivotshare-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://streamshark.io/" target="_blank">
+                        <img src="img/streamshark-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.flixxo.com/" target="_blank">
+                        <img src="img/flixxo-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.streamr.com/" target="_blank">
+                        <img src="img/streamr-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://livepeer.org/#" target="_blank">
+                        <img src="img/livepeer-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.thetatoken.org/" target="_blank">
+                        <img src="img/theta-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.blockcdn.org/" target="_blank">
+                        <img src="img/blockCDN-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.atmchain.io/en.html" target="_blank">
+                        <img src="img/ATMchain-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/gambling.png">
+                </div>
+            </div>
+
+            <div id="paginationGambling" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesGambling" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-gambling -->
+
+            <div class="row" id="pageOfGambling">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.leovegas.com/en-row/" target="_blank">
+                        <img src="img/leovegas-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.betfair.com/pl" target="_blank">
+                        <img src="img/betfair-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.32red.com/" target="_blank">
+                        <img src="img/32red-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.dunder.com/gb" target="_blank">
+                        <img src="img/dunder-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://unilot.io/en-us/" target="_blank">
+                        <img src="img/unilot-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.wagerr.com/" target="_blank">
+                        <img src="img/wagerr-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://funfair.io/" target="_blank">
+                        <img src="img/funfair-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://herotoken.io/" target="_blank">
+                        <img src="img/hero-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://bananacoin.io/" target="_blank">
+                        <img src="img/bananacoing-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://betrium.co/" target="_blank">
+                        <img src="img/betrium-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/gaming_esports.png">
+                </div>
+            </div>
+
+            <div id="paginationGamingEsports" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesGamingEsports" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-gamingEsports -->
+
+            <div class="row" id="pageOfGamingEsports">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://eu.expekt.one/" target="_blank">
+                        <img src="img/expekt-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.pinnacle.com/pl/esports" target="_blank">
+                        <img src="img/pinnacle-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://store.steampowered.com/" target="_blank">
+                        <img src="img/steam-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://esportsify.com/" target="_blank">
+                        <img src="img/esportsify-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.toornament.com/" target="_blank">
+                        <img src="img/toornament-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://battlefy.com/" target="_blank">
+                        <img src="img/battlefy-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://challengeme-esports.com/news.html" target="_blank">
+                        <img src="img/CMEesport-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://dmarket.io/" target="_blank">
+                        <img src="img/dmarket-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://skrilla.com/lobby" target="_blank">
+                        <img src="img/skrilla-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.esports.com/" target="_blank">
+                        <img src="img/esports-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.cryptokitties.co/" target="_blank">
+                        <img src="img/cryptokitties-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://pyramid.games/pl/" target="_blank">
+                        <img src="img/pyramidgame-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.etheremon.com/" target="_blank">
+                        <img src="img/etheremon-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://ionomy.com/" target="_blank">
+                        <img src="img/ionomy-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://iqeon.io/" target="_blank">
+                        <img src="img/iqeon-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.peerplays.com/" target="_blank">
+                        <img src="img/peerplays-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.augmentorsgame.com/" target="_blank">
+                        <img src="img/augmentors-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.enjin.com/" target="_blank">
+                        <img src="img/enjin-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.roshamboracing.com/" target="_blank">
+                        <img src="img/roshambo-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://www.gamescom.global/" target="_blank">
+                        <img src="img/gamescom-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://gamecredits.com/" target="_blank">
+                        <img src="img/gamecredits-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://nolimitcoin.org/#home" target="_blank">
+                        <img src="img/nolimitcoin-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://mobilego.io/" target="_blank">
+                        <img src="img/mobilego-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.monsterbyte.io/" target="_blank">
+                        <img src="img/monsterbyte-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://skincoin.org/" target="_blank">
+                        <img src="img/skincoin-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/virtual_reality.png">
+                </div>
+            </div>
+
+            <div id="paginationVirtualReality" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesVirtualReality" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-virtualReality -->
+
+            <div class="row" id="pageOfVirtualReality">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.eonreality.com/" target="_blank">
+                        <img src="img/eonreality-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.sansar.com/" target="_blank">
+                        <img src="img/sansar-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://decentraland.org/" target="_blank">
+                        <img src="img/decentraland-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.vechain.com/#/" target="_blank">
+                        <img src="img/vechain-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.voxelus.com/" target="_blank">
+                        <img src="img/voxelus-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://cappasity.com/" target="_blank">
+                        <img src="img/cappasity-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://dencity.life/" target="_blank">
+                        <img src="img/dencity-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="subdivition" class="col-2 d-flex">
+                    <img class="mx-auto my-auto" src="img/music.png">
+                </div>
+            </div>
+
+            <div id="paginationMusic" class="container">
+                <div class="row justify-content-center">
+                    <div id="listOfCompaniesMusic" class="dotstyle dotstyle-scaleup">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGO logo-company-music -->
+
+            <div class="row" id="pageOfMusic">
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.spotify.com/pl/" target="_blank">
+                        <img src="img/spotify-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://ujomusic.com/" target="_blank">
+                        <img src="img/ujomusic-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="http://myceliaformusic.org/" target="_blank">
+                        <img src="img/mycelia-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://singulardtv.com/" target="_blank">
+                        <img src="img/singulardtv-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://www.viberate.io/" target="_blank">
+                        <img src="img/viberate-logo.png"> </a>
+                </div>
+
+                <div class="col-1-sm d-flex">
+                    <a class="mx-auto my-auto" href="https://opus.audio/" target="_blank">
+                        <img src="img/opus-logo.png"> </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script/hideCompaniesLogo.js"></script>
+    <script src="script/createCompanyLogoGallery.js"></script>
+    <script src="script/onloadLogoOfCompaniesMarketplaces.js"></script>
+    <script src="script/onDotClick.js"></script>
+    <script src="script/dots.js"></script>
+    <script src="script/modernizr.min.js"></script>
+    <script>
+            [].slice.call(document.querySelectorAll('.dotstyle > ul')).forEach(function (nav) {
+                new DotNav(nav, {
+                    callback: function (idx) {
+                    }
+                });
+            });
+        </script>
+
+</body>
+
+</html>

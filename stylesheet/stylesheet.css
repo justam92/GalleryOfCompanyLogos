@@ -1,0 +1,106 @@
+body{
+	background-color: #d1d1d1;
+}
+
+img{
+	width: 20vw;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.col-1-sm{
+	min-height: 20vh;
+
+	display: none;
+}
+
+#subdivition{
+	min-height: 10vh;
+}
+
+
+#current{
+	display: contents;
+}
+
+#logo-firm-marketplaces{
+	margin-left: 10px;
+/*	display: none; */
+}
+
+
+
+@media only screen and (max-width: 2048px){
+	.col-1-sm img{
+		max-width: 10vw;
+	}
+
+	.col-1-sm.d-flex{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 1600px){
+	.col-1-sm img{
+		max-width: 16vw;
+	}
+
+	.col-1-sm.d-flex{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 1280px){
+	.col-1-sm img{
+		max-width: 27vw;
+	}
+	
+	.col-1-sm.d-flex{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
+
+@media only screen and (max-width: 720px){
+	.col-1-sm img{
+		min-width: 35vw;
+	}
+	
+	#subdivition img {
+		min-width: 20vw;
+	}
+	
+	.col-1-sm.d-flex{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#page-of-marketplaces{
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.col-1-sm img{
+		min-width: 80vw;
+	}
+	
+	.col-1-sm.d-flex{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#page-of-marketplaces{
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+	
+	#subdivition img {
+		min-width: 30vw;
+	}
+	
+}
