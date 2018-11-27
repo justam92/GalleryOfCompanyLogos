@@ -1,6 +1,6 @@
 # GalleryOfCompanyLogos
 
-The project aimed to improve Bootstrap and JavaScript knowledge by creating a paged gallery of companies.
+The project was aimed to improve Bootstrap and JavaScript knowledge by creating a paged gallery of companies. A pagination was made in Vanilla JavaScript.
 
 # Used technologies
 
